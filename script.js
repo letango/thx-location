@@ -35,7 +35,7 @@ async function initializeMapPlannersWithNewFeatures() {
 
     // points to the states layer in a service storing U.S. census data
     const csvLayer = new CSVLayer({
-      url: "https://raw.githubusercontent.com/letango/thx-location/main/final.csv",
+      url: "https://raw.githubusercontent.com/letango/thx-location/blob/main/final.csv",
       copyright: "data",
       renderer: {
         type: "simple",
@@ -98,7 +98,7 @@ async function initializeMapPlannersWithNewFeatures() {
 
         // points to the states layer in a service storing U.S. census data
         const therapists = new CSVLayer({
-          url: "https://raw.githubusercontent.com/letango/thx-location/main/final%20xy%20coordinates%201.csv",
+          url: "https://raw.githubusercontent.com/letango/thx-location/blob/main/final%20xy%20coordinates%201.csv",
           copyright: "XY_Coordinates",
           renderer: {
             type: "simple", // autocasts as new SimpleRenderer()
